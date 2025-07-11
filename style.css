@@ -8,21 +8,30 @@ body {
   background-color: #f5f8ff;
 }
 
+.raleway-sans-serif {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth"100;
+}
+
 .primary-color {
   color: #4E47FF;
 }
 
-button {
+button, .contact-form input[type="submit"] {
   background-color: #4E47FF;
   color: white;
   border: none;
   font-size: 16px;
   padding: 12px 36px;
   border-radius: 5px;
+  transition: 1.3s;
 }
 
-button:hover {
-  background-color: #313e29;
+button:hover, .contact-form input[type="submit"]:hover {
+  background-color: #87b16d;
 }
 
 .header {
@@ -87,6 +96,9 @@ nav h3 {
   font-size: 32px;
   font-weight: 700;
 }
+.joined h4{
+  font-family: none;
+}
 
 .activ-uers-section {
   display: flex;
@@ -147,8 +159,9 @@ nav h3 {
   padding-top: 20px;
 }
 
-.reviewer-person-name h6 {
-  font-weight: unset;
+.reviewer-person-name p {
+ color: #8987A1;
+ margin-top: 2px;
 }
 
 /* ready-focus styles */
@@ -199,19 +212,6 @@ nav h3 {
   border-radius: 10px;
   padding: 16px 32px;
   border: none;
-}
-
-.contact-form input[type="submit"] {
-  width: 100%;
-  cursor: pointer;
-  background-color: #4E47FF;
-  color: white;
-  border: none;
-  font-size: 16px;
-}
-
-.contact-form input[type="submit"]:hover {
-  background-color: #313e29;
 }
 
 /* footer section styles  */
