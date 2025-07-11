@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #f5f8ff;
 }
 
 .primary-color {
   color: #4E47FF;
-
 }
 
 button {
@@ -110,36 +111,138 @@ nav h3 {
   font-size: 40px;
   margin-bottom: 50px;
 }
-.reviewer-section{
+
+.reviewer-section {
   display: flex;
   gap: 20px;
 }
-.reviewer-area{
+
+.reviewer-area {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 14px;
   padding: 25px;
 }
-.reviewer-area h4{
+
+.reviewer-area h4 {
   font-size: 17px;
   margin: 24px 0 8px 0;
 }
-.reviewer-area p{
+
+.reviewer-area p {
   font-size: 13px;
   margin-bottom: 24px;
 }
-.reviewer-person{
+
+.reviewer-person {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.reviewer-person img{
+
+.reviewer-person img {
   border-radius: 50%;
 }
-.reviewer-person-name{
+
+.reviewer-person-name {
   padding-top: 20px;
 }
-.reviewer-person-name h6{
+
+.reviewer-person-name h6 {
   font-weight: unset;
 }
 
+/* ready-focus styles */
+.ready-focus {
+  padding-top: 60px;
+  margin: 0 150px;
+  background-color: white;
+  text-align: center;
+  border-radius: 14px;
+}
 
+.ready-focus h3 {
+  font-size: 40px;
+}
+
+.ready-focus p {
+  margin: 15px 0;
+}
+
+.ready-focus img {
+  border-radius: 40px;
+  width: 650px;
+  margin: 20px 0 60px 0;
+}
+
+/* contact section styles  */
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin: 50px 150px;
+}
+
+.contact-title h3 {
+  font-size: 60px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 16px 32px;
+  border: none;
+}
+
+.contact-form input[type="submit"] {
+  width: 100%;
+  cursor: pointer;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #313e29;
+}
+
+/* footer section styles  */
+.footer-section {
+  text-align: center;
+  padding: 104px 330px;
+  background-color: white;
+}
+
+.footer-section h3{
+  font-size: 60px;
+  color: #4E47FF;
+  margin-bottom: 8px;
+}
+.footer-section p{
+  margin-bottom: 20px;
+  color: #8987A1;
+  font-size: 16px;
+}
+
+.footer-section ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.footer-section ul li {
+  list-style: none;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #8987A1;
+}
